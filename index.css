@@ -4,6 +4,7 @@
     flex-direction: row;
     gap: 25%;
     /* background-color: brown; */
+    position: fixed;
 }
 
 #nav-home{
@@ -28,7 +29,10 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    align-items: center;
+    margin-bottom: 40vh;
+    margin-left: 35vh;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .cards_display{
@@ -54,6 +58,20 @@
     background-color: blue;
 }
 
+.footer-container{
+    background-color: aquamarine;
+}
+
+.margin-top-bottom{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.footer{
+    width: 50px;
+    height: 50px;
+}
 
 
 
