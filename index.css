@@ -1,0 +1,61 @@
+#nav-bar{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 25%;
+    /* background-color: brown; */
+}
+
+#nav-home{
+    background-color: beige;
+}
+
+#nav-about{
+    background-color: blue;
+}
+
+#nav-skills{
+    background-color:brown;
+}
+
+#nav-projects{
+    background-color: blue;
+}
+
+.round-img{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.cards_display{
+    display : grid;
+    /* background-color: aqua; */
+    grid-template-rows: 1fr ;
+    min-height: 99vh;
+}
+
+#home{
+    background-color: yellow;
+}
+
+#about{
+    background-color: blueviolet;
+}
+
+#skills{
+    background-color: bisque;
+}
+
+#projects{
+    background-color: blue;
+}
+
+
+
+
+
+
